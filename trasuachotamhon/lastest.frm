@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `trasuachotamhon`.`baiviet`.`maBV` AS `maBV`,`trasuachotamhon`.`baiviet`.`id_user` AS `id_user`,`trasuachotamhon`.`baiviet`.`maDM` AS `maDM`,`trasuachotamhon`.`baiviet`.`tieuDe` AS `tieuDe`,`trasuachotamhon`.`baiviet`.`tomTat` AS `tomTat`,`trasuachotamhon`.`baiviet`.`noiDung` AS `noiDung`,`trasuachotamhon`.`baiviet`.`hinhAnh` AS `hinhAnh`,`trasuachotamhon`.`baiviet`.`ngayDang` AS `ngayDang`,`trasuachotamhon`.`baiviet`.`status` AS `status`,`trasuachotamhon`.`baiviet`.`view` AS `view` from `trasuachotamhon`.`baiviet` group by `trasuachotamhon`.`baiviet`.`maBV` order by `trasuachotamhon`.`baiviet`.`view` desc
+md5=6c8911ae44373a59c8054048e739b77b
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=1
+with_check_option=0
+timestamp=2018-03-29 17:41:26
+create-version=2
+source=select `baiviet`.`maBV` AS `maBV`,`baiviet`.`id_user` AS `id_user`,`baiviet`.`maDM` AS `maDM`,`baiviet`.`tieuDe` AS `tieuDe`,`baiviet`.`tomTat` AS `tomTat`,`baiviet`.`noiDung` AS `noiDung`,`baiviet`.`hinhAnh` AS `hinhAnh`,`baiviet`.`ngayDang` AS `ngayDang`,`baiviet`.`status` AS `status`,`baiviet`.`view` AS `view` from `baiviet` group by `baiviet`.`maBV` order by `baiviet`.`view` desc
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_general_ci
+view_body_utf8=select `trasuachotamhon`.`baiviet`.`maBV` AS `maBV`,`trasuachotamhon`.`baiviet`.`id_user` AS `id_user`,`trasuachotamhon`.`baiviet`.`maDM` AS `maDM`,`trasuachotamhon`.`baiviet`.`tieuDe` AS `tieuDe`,`trasuachotamhon`.`baiviet`.`tomTat` AS `tomTat`,`trasuachotamhon`.`baiviet`.`noiDung` AS `noiDung`,`trasuachotamhon`.`baiviet`.`hinhAnh` AS `hinhAnh`,`trasuachotamhon`.`baiviet`.`ngayDang` AS `ngayDang`,`trasuachotamhon`.`baiviet`.`status` AS `status`,`trasuachotamhon`.`baiviet`.`view` AS `view` from `trasuachotamhon`.`baiviet` group by `trasuachotamhon`.`baiviet`.`maBV` order by `trasuachotamhon`.`baiviet`.`view` desc
+mariadb-version=100131
